@@ -1,0 +1,21 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "name": "original",
+            "type": "blobTrigger",
+            "dataType": "binary",
+            "direction": "in",
+            "path": "inbound/{name}",
+            "connection":"AzureWebJobsStorage"
+        },
+        {
+            "name": "resized",
+            "type": "blob",
+            "dataType": "binary",
+            "direction": "out",
+            "path": "resized/{name}",
+            "connection":"AzureWebJobsStorage"
+        }  
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "auto_tags": [],
+  "auto_categories": [],
+  "auto_descriptions": [],
+  "auto_caption": "",
+  "auto_dominantColorForeground": "",
+  "auto_dominantColorBackground": "",
+  "auto_accentColor": "",
+  "auto_isBWImg": bool,
+  "auto_clipArtType": int,
+  "auto_lineDrawingType": int,
+  "isAdultContent": bool,
+  "isRacyContent": bool
+}

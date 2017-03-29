@@ -1,0 +1,21 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "name": "inputMessage",
+            "type": "queueTrigger",
+            "direction": "in",
+            "queueName": "analysis-queue",
+            "connection":"AzureWebJobsStorage"
+        },
+        {
+            "name": "outputDocument",
+            "type": "documentDB",
+            "databaseName": "kwilt",
+            "collectionName": "files",
+            "createIfNotExists": false,
+            "connection": "KwiltDocumentStore",     
+            "direction": "out"
+        }
+    ]
+}

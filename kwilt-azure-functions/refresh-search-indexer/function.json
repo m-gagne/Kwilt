@@ -1,0 +1,18 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "name": "req",
+            "type": "httpTrigger",
+            "authLevel": "function",
+            "direction": "in",
+            "methods": [ "POST" ],
+            "route": "search/indexer/{id}/refresh"
+        },
+        {
+            "name": "res",
+            "type": "http",
+            "direction": "out"
+        }
+    ]
+}

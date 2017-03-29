@@ -1,0 +1,102 @@
+{
+  "sorting_time": "2017-03-20 19:46:59",
+  "type": "image",
+  "id": "45671588",
+  "name": "Petronas_Twin_Towers_2010_April.jpg",
+  "created_time": "2017-03-20 19:37:56",
+  "modified_time": "2017-03-20 19:46:59",
+  "size": 7378899,
+  "mime_type": "image/jpeg",
+  "height": 3840,
+  "width": 2523,
+  "thumbnail_url": "https://lh3.googleusercontent.com/-ngVWGjPsfSo/WNAvlKVSp2I/AAAAAAAAE9E/D5sLGvOCo-kPOprd0BmlhDhIGXJTmLkHQCHM/s640/Petronas_Twin_Towers_2010_April.jpg",
+  "recent_time": "2017-03-20 19:37:56",
+  "azure_vision_api": {
+    "timestamp": "2017-03-27 21:21:18",
+    "data": {
+      "categories": [
+        {
+          "name": "building_street",
+          "score": 0.94140625
+        }
+      ],
+      "adult": {
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "adultScore": 0.0261235311627388,
+        "racyScore": 0.03577716276049614
+      },
+      "tags": [
+        {
+          "name": "sky",
+          "confidence": 0.9990156888961792
+        },
+        {
+          "name": "outdoor",
+          "confidence": 0.9985760450363159
+        },
+        {
+          "name": "building",
+          "confidence": 0.9883823990821838
+        },
+        {
+          "name": "tower",
+          "confidence": 0.49840062856674194
+        },
+        {
+          "name": "tall",
+          "confidence": 0.47457441687583923
+        }
+      ],
+      "description": {
+        "tags": [
+          "outdoor",
+          "building",
+          "front",
+          "church",
+          "large",
+          "tower",
+          "tall",
+          "clock",
+          "background",
+          "top",
+          "city",
+          "standing",
+          "flying",
+          "old",
+          "cloudy",
+          "snow",
+          "white",
+          "riding",
+          "blue"
+        ],
+        "captions": [
+          {
+            "text": "a church steeple in front of a tall building",
+            "confidence": 0.5553572730859074
+          }
+        ]
+      },
+      "requestId": "ecf6152d-4ca1-46ad-8ebd-da5b3d701886",
+      "metadata": {
+        "width": 420,
+        "height": 640,
+        "format": "Jpeg"
+      },
+      "faces": [],
+      "color": {
+        "dominantColorForeground": "Grey",
+        "dominantColorBackground": "Grey",
+        "dominantColors": [
+          "Grey"
+        ],
+        "accentColor": "4B6280",
+        "isBWImg": false
+      },
+      "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+      }
+    }
+  }
+}

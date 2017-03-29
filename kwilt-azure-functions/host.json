@@ -1,0 +1,7 @@
+{
+  "id": "fc27ff7793dc479da24df22ec05007bf",
+  "queues": {
+      "batchSize": 4,
+      "newBatchThreshold": 2
+    }
+}
