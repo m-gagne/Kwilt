@@ -6,7 +6,10 @@
 
 ## Postman Setup
 
-1. In Postman create the following global (or envronment specific) variables
+In Postman:
+
+1. Click `import` > `Choose Files` and select the file `Kwilt.postman_collection.json` found in this folder.
+1. Create the following global (or envronment specific) variables
   - `KwiltDocDbConnectionString` : The connection string for the DocumentDB where file (photo) data will be stored
   - `KwiltSearchAccountName` : The Azure Search search instance name
   - `KwiltSearchAdminKey` : The primary admin key for your Azure Search instance
